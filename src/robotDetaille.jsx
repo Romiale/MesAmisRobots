@@ -7,11 +7,11 @@ const Robotdetaille = ({ user }) => {
                 <img className="ImageDeprofile mb-4 col-8 bg-secondary" src={user.src} alt="user.alt" />
             </div>
             <div>
-                <p className="m-0"> <em className="m-2">Name:</em>{user.name}</p>
-                <p className="m-0"><em className="m-2">Email:</em>{user.email}</p>
-                <p className="m-0"><em className="m-2">Username:</em>{user.username}</p>
-                <p className="m-0"><em className="m-2">Phone :</em>{user.phone}</p>
-                <p className="m-0"> <em className="m-2"> Adress:</em> {user.address.street + " " + user.address.city}</p>
+                <p className="m-2"><span className="h6"> Name:</span> {user.name}</p>
+                <p className="m-2"><span className="h6">Email:</span> {user.email}</p>
+                <p className="m-2"><span className="h6">Username:</span> {user.username}</p>
+                <p className="m-2"><span className="h6">Phone :</span> {user.phone}</p>
+                <p className="m-2"><span className="h6">Adress:</span> {user.address.street + " " + user.address.city}</p>
             </div>
         </div>
 
