@@ -40,8 +40,8 @@ const ListRobots = () => {
     return (
         <div className="col-10 offset-1 bg-light d-flex row justify-content-center">
             <h1 className="text-center">Mes amis Robots</h1>
-            <div className="col-md-3">
-                <input type="text" className="form-control m-3" placeholder="Entrez un nom" onChange={research} />
+            <div className="col-md-4">
+                <input type="text" className="form-control col-12" placeholder="Entrez un nom" onChange={research} />
             </div>
             <div className="col-md-12 d-flex flex-wrap justify-content-center">
                 {
