@@ -4,7 +4,7 @@ const Robotdetaille = ({ user }) => {
     return (
         <div>
             <div className="d-flex justify-content-center border-bottom">
-                <img className="ImageDeprofile mb-4 col-11 bg-secondary" src={user.src} alt="user.alt" />
+                <img className="ImageDeprofile mb-4 col-8 bg-secondary" src={user.src} alt="user.alt" />
             </div>
             <div>
                 <p className="m-0"> <em className="m-2">Name:</em>{user.name}</p>
