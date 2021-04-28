@@ -1,6 +1,5 @@
-import React from 'react';
 import Card from './Card';
-import { useState, useEffect } from 'react';
+import { React, useState, useEffect } from 'react';
 
 const ListRobots = () => {
     const [Users, setUsers] = useState([])
@@ -37,13 +36,14 @@ const ListRobots = () => {
         })
         setUserAffiche(Robots)
     }
+
     return (
-        <div className="col-12 bg-light d-flex row justify-content-center">
+        <div className="col-10 offset-1 bg-light d-flex row justify-content-center">
             <h1 className="text-center">Mes amis Robots</h1>
-            <div className="col-md-4">
+            <div className="col-md-3">
                 <input type="text" className="form-control m-3" placeholder="Entrez un nom" onChange={research} />
             </div>
-            <div className="col-md-10 d-flex flex-wrap justify-content-center">
+            <div className="col-md-12 d-flex flex-wrap justify-content-center">
                 {
                     UsersAffiche.map(user => {
 
