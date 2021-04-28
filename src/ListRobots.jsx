@@ -43,7 +43,7 @@ const ListRobots = () => {
             <div className="col-md-4">
                 <input type="text" className="form-control col-12" placeholder="Entrez un nom" onChange={research} />
             </div>
-            <div className="col-md-12 d-flex flex-wrap justify-content-center">
+            <div className="col-md-12 mt-5 d-flex flex-wrap justify-content-center">
                 {
                     UsersAffiche.map(user => {
 
